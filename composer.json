@@ -15,5 +15,13 @@
     ],
     "require-dev": {
         "orchestra/testbench": "^8.21"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Divvya\\LaravelHelper\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
     }
 }
