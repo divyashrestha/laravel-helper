@@ -1,0 +1,19 @@
+{
+    "name": "divyashrestha/laravel-helper",
+    "description": "Helper to modularize the code",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Divyashrestha\\LaravelHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Divya Shrestha",
+            "email": "divyashrestha042@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.21"
+    }
+}
